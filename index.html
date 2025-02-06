@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Questions and Answers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Medical Questions and Answers</h1>
+        <nav>
+            <ul>
+                <li><a href="#ask-question">Ask a Question</a></li>
+                <li><a href="#view-questions">View Questions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="ask-question">
+        <h2>Ask a Question</h2>
+        <form id="question-form">
+            <input type="text" id="question" placeholder="Ask a question..." required>
+            <button type="submit">Submit Question</button>
+        </form>
+    </section>
+
+    <section id="view-questions">
+        <h2>Questions</h2>
+        <div id="questions-list">
+            <!-- Dynamic list of questions will be inserted here -->
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: info@medicalquestions.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
